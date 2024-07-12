@@ -2,6 +2,8 @@ body{
     font-family: Roboto, Arial, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    
 }
 header{
     display: flex;
@@ -82,11 +84,37 @@ img{
     background-color: white;
   }
 .three{
-    background-color: lightgray;
+    background-color: #E5E7EB;
+    padding: 50px 75px;
+
+}
+.three p{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+.three span{
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
 .four{
     background-color: white;
 }
 footer{
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+
+}
+footer >span{
+    font-size: 10px;
+   
 }
