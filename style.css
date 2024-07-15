@@ -3,6 +3,9 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    align-items: center;
+    
+    
     
 }
 header{
@@ -41,10 +44,15 @@ span{
     margin: 0;
     padding: 75px;
     display: flex;
-    flex-direction: row;
-    flex: 1;
     
 }
+.leftside{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 25px 0 0;
+    
+  }
 
 h1{
     font-size: 48px;
@@ -64,7 +72,7 @@ button{
     color: #E5E7EB;
     border-radius: 8px;
     font-size: 18px;
-    padding: 2px 15px;
+    padding: 5px 25px;
     margin: 10px 0;
     
     
@@ -72,20 +80,20 @@ button{
 img{
     background-color: grey;
     color: #E5E7EB;
-  }
-.leftside{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    margin: 0 25px 0 0;
+    width: 50%;
+    
     
   }
+
   .two{
     background-color: white;
+    padding: 20px 100px;
   }
 .three{
     background-color: #E5E7EB;
-    padding: 50px 75px;
+    padding: 50px 125px;
+    width: 100%;
+   
 
 }
 .three p{
@@ -95,13 +103,17 @@ img{
     font-weight: 100;
     display: flex;
     justify-content: center;
+    padding: 50px 200px;
 }
 .three span{
     color: #1F2937;
     font-size: 30px;
     font-weight: bold;
-    display: flex;
+    display:flex;
     justify-content: flex-end;
+    padding: 0 200px;
+
+
 }
 .four{
     background-color: white;
@@ -112,9 +124,68 @@ footer{
     justify-content: center;
     align-content: center;
     padding: 20px;
+    width: 100%;
 
 }
 footer >span{
     font-size: 10px;
    
+}
+.container{
+    display: flex;
+    padding: 0 75px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 75px 0;
+    text-align: center;
+    gap: 5px;
+    
+
+    
+}
+.info img{
+    height: 175px;
+    width: 175px;
+    border: 2px solid blue;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.two h2{
+    display: flex;
+    justify-content: center;
+}
+.two p{
+    color: #1F2937;
+    width: 175px;
+}
+.four{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 100px; 
+    margin: 75px;
+
+}
+.calltoaction{
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+.four button{
+    border: 1px solid #E5E7EB;
+
+}
+.calltoaction h2{ 
+    margin: 0;
+    
 }
